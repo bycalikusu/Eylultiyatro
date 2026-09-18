@@ -46,11 +46,13 @@ EylulTiyatro.com; Eylül Tiyatro topluluğunu, oyunlarını, oyuncularını ve e
 Next.js
 TypeScript
 Tailwind CSS
-Prisma
-PostgreSQL
+MySQL
+mysql2
 ```
 
 Public site ve admin panel aynı Next.js projesi içinde olacaktır.
+
+Veritabanı olarak MySQL kullanılacaktır. ORM zorunlu olmayacaktır; başlangıçta `mysql2` ile doğrudan ve kontrollü veri erişimi yeterlidir.
 
 Ayrı backend, microservice veya ayrı admin uygulaması kurulmayacaktır.
 
@@ -225,8 +227,8 @@ Görseller optimize edilerek gösterilecektir.
 - Next.js
 - TypeScript
 - Tailwind
-- Prisma
-- PostgreSQL
+- MySQL
+- mysql2
 - temel layout
 - admin login
 
